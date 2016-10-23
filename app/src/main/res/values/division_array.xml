@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="devision_array">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Sylhet</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+        <item>Barisal</item>
+        <item>Rangpur</item>
+        <item>Other</item>
+    </string-array>
+</resources>
