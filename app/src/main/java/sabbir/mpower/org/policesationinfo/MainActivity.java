@@ -79,6 +79,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 1:
                 listView.smoothScrollToPosition(230);
                 break;
+            case 2:
+                listView.smoothScrollToPosition(300);
         }
 
     }
@@ -87,32 +89,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
-
-    public class MyTask extends AsyncTask{
-
-
-        @Override
-        protected Object doInBackground(Object[] params) {
-            return null;
-        }
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-        }
-
-        @Override
-        protected void onPostExecute(Object o) {
-            super.onPostExecute(o);
-        }
-    }
-
-
-
-
-
-
-
 
     public String loadJSONFromAsset() {
         String json = null;
